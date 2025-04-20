@@ -1,0 +1,64 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Main Container */
+  div {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+  
+  /* Section Titles */
+  h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  /* List Styles */
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Links */
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact Information */
+  h2 + p {
+    margin: 10px 0;
+  }
+  
